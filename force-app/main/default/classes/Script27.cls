@@ -5,6 +5,7 @@ public class Script27 {
         for(Account acc:accList)
         {
             totalEmployees+=acc.NumberofEmployees;
+            System.debug('hi i have made some changes');
         }
         return totalEmployees;
     }
